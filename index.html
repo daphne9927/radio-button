@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="OpenWeatherMap.js"></script>
+    <script src="radioButton.js"></script>
   </head>
   <body>
     <form>
-      <fieldset>
-        <legend>Weather Report Form</legend>
-        <label for="cityOrZipForm">U.S. City or Zip Code:</label>
-        <input type="text" name="cityOrZip" id="cityOrZip">
-        <input type="submit" id="inputSubmit">
-      </fieldset>
+      
+       
+      
+      <form action="/action_page.php">
+<p>Please select your units:</p>
+  <input type="radio" name="chooseUnits" value="Kilograms">Kilograms<br>
+  <input type="radio" name="chooseUnits" value="Pounds">Pounds<br>
+  
+
+
+  <input type="submit" value="Submit" id = "inputSubmit">
+</form>
+
+      
+      
+      
+      
+      
+      
     </form>
-    <div>
-      <h2>Result</h2>
-      <ul>
-        <li><span>City:</span><span id="name"></span></li>
-        <li><span>General Description:</span><span id="description"></span></li>
-        <li><span>Temperature (degs F):</span><span id="temperature"></span></li>
-        <li><span>Humidity %: </span><span id="humidity"></span></li>
-      
-            </ul>
-      <p align = "center" id="temp"></p>
-      <p align = "center" id="tooHot"></p>
-      
    
-    </div>
   </body>
 </html>
